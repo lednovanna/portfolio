@@ -1,0 +1,288 @@
+body{
+    background-color: #F3E1E1;
+    
+}
+
+#containerOne{
+    display: flex;
+    justify-content: center;
+    color: #393E46;
+    width: 100%;
+    flex-direction: column;
+
+  }
+
+  #about{
+    margin-top: 10%;
+    padding: 10px;
+  }
+ 
+h2{
+    color: #8785A2;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    margin: 0;
+     }
+
+     #containerOne, h1{
+    text-align: center ;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu{
+  display:flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  
+  background-color: #393E46;
+  width: 100%;
+  padding: 9px;
+  position: relative;
+}
+
+#item{
+  text-decoration: none;
+  padding: 40px;
+  font-size: 40;
+  color: white;
+   position: relative;
+}
+
+#item:hover {
+  color: #FFE2E2;
+}
+
+#item:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #FFE2E2;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+  margin: auto;
+}
+
+#item:hover:after {
+  display:block;
+}
+
+
+#sectionHeader{
+  width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+h1{
+  margin-top: 15%;
+}
+
+#about:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #393E46;
+}
+
+#headerTwo:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 30px auto;
+  background-color: #393E46;
+}
+
+
+
+#textAbout{
+  font-size: 20px;
+  color: #999;
+  font-family: 'Roboto', sans-serif;
+  max-width: 45rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+}
+
+#sectionOne{
+  background-color: #F3E1E1;
+  height: 90vh;
+  width: 100%;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sectionTwo{
+height: 90vh;
+background-color: white;
+}
+
+#sectionThree{
+  background-color: #f6f6f6;
+  height: 260vh;
+}
+
+#headerTwo{
+  margin-top: 2%;
+  padding-top: 5%;
+}
+
+#features{
+  display:flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+#pro{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+
+
+#description{
+   font-size: 20px;
+   color: #999;
+   font-family: 'Roboto', sans-serif;
+  width: 25rem;
+}
+
+h3{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #393E46;
+}
+
+h4{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #FF6666;
+}
+
+#btn{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  width: 7rem;
+  border: none;
+  background-color: inherit;
+  position: relative;
+  display:inline-block;
+  text-decoration: none;
+  transition: .5;
+  background: linear-gradient(to left, #FFFFD2, #FCBAD3, #A8D8EA);
+  
+  background-size: 200%;
+}
+
+#btn:hover{
+  background-position: right;
+}
+
+#sectionFour{
+  background-color: white;
+  height: 110vh;
+  }
+
+  #form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-self: center;
+    margin-top: 8%;
+    position: relative;
+    max-width: 800px;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(000, 000, 000, 0.7);
+    
+  }
+
+  #home{
+    align-self: center;
+  }
+
+  label{
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  input{
+     height: 20px;
+  }
+
+  #message{
+    height: 60px;
+  }
+
+  #btnSend{
+    width: 150px;
+    padding: 10px;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    transition: .5;
+    background: linear-gradient(to left, #6D5D6E, #F4EEE0, #393646);
+    background-color: inherit;
+    position: relative;
+    display:inline-block;
+    text-decoration: none;
+    background-size: 200%;
+    border: none;
+    color: white;
+  }
+
+  #btnSend:hover{
+    background-position: right;
+  }
+
+  #contact{
+    color: #393E46;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #mail{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #home{
+text-align: center;
+
+  }
+
+  #top{
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Roboto', sans-serif;
+  
+  }
+
+  a{
+    text-decoration: none;
+color: #393E46;
+  }
+
+   @media all and (max-width: 800px) {
+    #headerFour{
+      margin-
+    }
+   }
+  
