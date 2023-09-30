@@ -1,6 +1,6 @@
 # My portfolio
 
-![file](portfolio.jpg {width=200px height=300px})
+
 < img src="portfolio.jpg width=300 height=300">
 <br>
 Hello! My name is __Anna Lednova__, and I am a Frontend developer. And this is my portfolio.
