@@ -1,6 +1,6 @@
 # My portfolio
 
-![file](portfolio.jpg width="200px", hight="300px")
+![file](portfolio.jpg {width="200px", hight="300px"})
 <br>
 Hello! My name is __Anna Lednova__, and I am a Frontend developer. And this is my portfolio.
 ___
