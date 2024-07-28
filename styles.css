@@ -76,7 +76,7 @@ h2{
 
 #sectionHeader{
   width: 100%;
-  width: 100%;
+
   text-align: center;
 }
 
@@ -130,7 +130,9 @@ background-color: white;
 
 #sectionThree{
   background-color: #f6f6f6;
-  height: 260vh;
+  height: 270vh;
+  height: 100%;
+  padding-bottom: 30px;
 }
 
 #headerTwo{
@@ -143,14 +145,23 @@ background-color: white;
   justify-content: space-evenly;
   margin: 0 auto;
   flex-wrap: wrap;
+
 }
 
 #pro{
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   margin: 20px;
   padding: 20px;
-  
+  background-color: #f0ecec;
+  border-radius: 7px;
+ box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+#pro:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -186,8 +197,11 @@ h4{
   text-decoration: none;
   transition: .5;
   background: linear-gradient(to left, #FFFFD2, #FCBAD3, #A8D8EA);
-  
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);;
   background-size: 200%;
+  border-radius: 5px;
+  cursor: pointer;
+  
 }
 
 #btn:hover{
@@ -196,19 +210,34 @@ h4{
 
 #sectionFour{
   background-color: white;
-  height: 110vh;
+  
+  height: 90vh;
+  }
+
+  #sectionHeader #headerFour{
+    padding-top: 30px;
+  }
+
+  #sectionHeader #headerFour:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #393E46;
   }
 
   #form{
     display: flex;
+
     flex-direction: column;
     margin: 0 auto;
     align-self: center;
-    margin-top: 8%;
+    margin-top: 40px;
     position: relative;
     max-width: 800px;
     height: 500px;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 5px 25px rgba(000, 000, 000, 0.7);
     
   }
@@ -228,6 +257,14 @@ h4{
 
   #message{
     height: 60px;
+  }
+ 
+  
+
+  #card-footer {
+    display: flex;
+    justify-content: center;
+    
   }
 
   #btnSend{
@@ -272,7 +309,11 @@ text-align: center;
     justify-content: center;
     
     font-family: 'Roboto', sans-serif;
-  
+    cursor: pointer;
+  }
+
+  #top:hover{
+    opacity: 0.5;
   }
 
   a{
@@ -280,9 +321,31 @@ text-align: center;
 color: #393E46;
   }
 
-   @media all and (max-width: 800px) {
-    #headerFour{
-      margin-
+   @media all and (max-width: 600px) {
+    #pro img{
+       width: 300px;
+       height: 300px;
+    }
+
+    #pro{
+      padding: 15px;
+    }
+
+    #form {
+      max-width: 500px;
+    }
+
+    #item{ 
+      padding: 20px;
+      font-size: 15;
+    }
+
+    #menu {
+      padding: 0;
+    }
+
+    #containerOne h1 {
+      margin-top: 40%;
     }
    }
   
