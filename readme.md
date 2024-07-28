@@ -1,4 +1,8 @@
 # My portfolio
+<<<<<<< HEAD
+=======
+
+>>>>>>> fa42c6311da8fdf025a58646846265a2f4948729
 
 ![file](portfolio.jpg)
 
